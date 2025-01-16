@@ -1,0 +1,19 @@
+
+module.exports = {
+  darkMode: ['class'],
+  content: [
+    './index.html', // For Vite, include index.html
+    './src/**/*.{js,ts,jsx,tsx}', // Adjust based on your file types and locations
+  ],
+  theme: {
+    extend: {
+      borderRadius: {
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 2px)',
+        sm: 'calc(var(--radius) - 4px)'
+      },
+      colors: {}
+    }
+  },
+  plugins: [require("tailwindcss-animate")],
+};

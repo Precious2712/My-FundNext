@@ -1,0 +1,193 @@
+.main {
+    position: relative;
+}
+
+.part {
+    display: none;
+}
+
+.main :hover .part {
+    position: absolute;
+    display: block;
+    z-index: 10;
+}
+
+.main :hover .part ul {
+    background-color: rgb(41, 45, 52);
+    margin-top: 22px;
+    width: 185px;
+    border-radius: 8px;
+    /* height: 40vh; */
+}
+
+.branch {
+    position: relative;
+}
+
+.vine {
+    display: none;
+}
+
+.branch :hover .vine {
+    display: block;
+    position: absolute;
+}
+
+.branch :hover .vine ul {
+    background-color: rgb(41, 45, 52);
+    /* margin-top: 22px; */
+    width: 205px;
+    border-radius: 8px;
+    padding-bottom: 0px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.no-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scroll {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+.btn button {
+    background-color: rgb(113, 105, 255);
+    width: 298px;
+    font-size: 20px;
+    height: 10vh;
+}
+
+.buton button {
+    background-color: rgb(26, 26, 26);
+    width: 298px;
+    font-size: 20px;
+    height: 10vh;
+}
+
+.selext input {
+    width: 130px;
+    background-color: rgb(2, 4, 6);
+    border-radius: 10px;
+    border: steelblue;
+    padding-left: 12px;
+}
+
+
+.round-shape {
+    border-radius: 15% 15% 0px 0px;
+}
+
+.movement {
+    display: inline-flex;
+    gap: 13px;
+    position: relative;
+    animation-name: slide-side;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+}
+
+@keyframes slide-side {
+    100% {
+        transform: translateX(180%);
+    }
+    18% {
+        transform: translateX(-80%);
+    }
+}
+
+
+.y-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.backgroundImage {
+    background-image: url('/glob-img-corner\ \(1\).png');
+    height: 135vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90.2%;
+    margin: auto;
+}
+
+.motion {
+    animation-name: slide-down;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+}
+
+.motion::-webkit-scrollbar {
+    display: none;
+}
+
+.motion {
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hides scrollbar in Internet Explorer */
+}
+
+
+/* Keyframes for position-based sliding animation */
+@keyframes slide-down {
+    90% {
+        transform: translateX(6%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+}
+/* .five {
+    rotate: 90deg;
+} */
+
+
+
+@media(max-width:1016px) {
+    .betwen {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:768px) {
+    .btn button {
+        width: 96%;
+    }
+
+    .buton button {
+        width: 96%;
+    }
+
+    .buton {
+        margin-top: 19px;
+    }
+}
