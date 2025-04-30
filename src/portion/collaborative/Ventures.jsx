@@ -1,6 +1,5 @@
 import React from 'react'
 
-import office from '@/assets/office-tour-cover-mobile.jpeg'
 import { Button } from '@/components/ui/button'
 import x from '@/assets/twitter_new (1).svg'
 import discord from '@/assets/discord-new.svg'

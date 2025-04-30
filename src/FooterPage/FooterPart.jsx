@@ -1,6 +1,5 @@
 import React from 'react'
 
-import funds from '/fundednext-white-logo.svg'
 import double from '@/assets/discord-new.svg'
 import facebook from '@/assets/facebook.svg'
 import instagram from '@/assets/instagram_footer (1).svg'
@@ -8,7 +7,7 @@ import twist from '@/assets/twitter.svg'
 import youtube from '@/assets/youtube.svg'
 const FooterPart = () => {
     return (
-        <div className='bg-[rgb(8,7,20)] pb-44 pt-20 opacity-8 mt-40'>
+        <div className='bg-[rgb(8,7,20)] pb-44 pt-20 opacity-8 mt-20 md:mt-28 lg:mt-44'>
 
             <div className='hidden lg:flex justify-around'>
                 <div>
@@ -90,7 +89,7 @@ const FooterPart = () => {
 
 
             <div className='block lg:hidden'>
-                <div>
+                <div className='ml-4'>
                     <img className='' src='https://fundednext.fra1.cdn.digitaloceanspaces.com/lander-v2/logo-white.svg' alt="" />
                     <div className='flex gap-2 mt-12'>
                         <img src={double} alt="" />
@@ -102,7 +101,7 @@ const FooterPart = () => {
                     <p className='text-white'>support@fundednext.com</p>
                 </div>
 
-                <div className=' grid grid-cols-2 '>
+                <div className=' grid grid-cols-2 ml-4 '>
 
                     <div>
                         <p className='text-[rgb(111,110,122)] font-sans text-[14px] font'>Models</p>
