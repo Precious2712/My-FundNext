@@ -112,14 +112,14 @@ const FundWWallet = () => {
                 <div className=' items-stretch flex flex-col lg:flex-row gap-4 lg:h-[67vh]'>
 
                     <div className="w-[89%] relative pb-10 m-auto overflow-hidden bg-[rgb(22,18,52)] bg-opacity-90 rounded-[18px] lg:w-[48%] h-full ">
-                        {/* <video
-                            className="absolute top-0 left-0 w-full object-cover opacity-15  lg:w-full h-full"
+                        <video
+                            className="absolute top-0 left-0 w-full object-cover opacity-30  lg:w-full h-full"
                             src="https://fundednext.fra1.cdn.digitaloceanspaces.com/lander-v2/Globe%20Animation.mp4"
                             autoPlay
                             loop
                             muted
                             playsInline
-                        ></video> */}
+                        ></video>
 
                         <div className="relative z-10 text-white top-[70px] left-[20px]">
                             <h1 className="text-2xl">Empowering Traders in <br /> 195+ Countries</h1>
