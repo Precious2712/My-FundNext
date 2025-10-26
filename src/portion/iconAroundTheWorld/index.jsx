@@ -175,5 +175,3 @@ const VideoModalOverlay = () => {
 };
 
 export default VideoModalOverlay;
-
-

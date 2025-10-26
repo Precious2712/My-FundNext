@@ -7,7 +7,7 @@ import twist from '@/assets/twitter.svg'
 import youtube from '@/assets/youtube.svg'
 const FooterPart = () => {
     return (
-        <div className='bg-[rgb(8,7,20)] pb-44 pt-20 opacity-8 mt-20 md:mt-28 lg:mt-44'>
+        <div className='bg-[rgb(8,7,20)] pt-7 pb-8 opacity-8 mt-20 md:mt-0 lg: lg:pb-16'>
 
             <div className='hidden lg:flex justify-around'>
                 <div>

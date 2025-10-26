@@ -130,7 +130,7 @@ const FundWWallet = () => {
                                 <div className='w-1 h-[70%] bg-[rgb(105,52,238)] rounded-[2px] rotate-120 mt-1'></div>
                                 <div className='ml-2'>
                                     <h1 className='text-white text-2xl'>$95M+</h1>
-                                    <p className=' text-[17px] text-[rgb(188,187,197)] mt-1'>Total <br /> Rewards</p>
+                                    <p className=' text-[12px] text-[rgb(188,187,197)] mt-1 lg:text-[17px]'>Total <br /> Rewards</p>
                                 </div>
                             </div>
 
@@ -138,7 +138,7 @@ const FundWWallet = () => {
                                 <div className='w-1 h-[60%] bg-[rgb(40,163,238)] rounded-[2px] rotate-120 mt-1'></div>
                                 <div className='ml-2'>
                                     <h1 className='text-white text-2xl'>97k+</h1>
-                                    <p className=' text-[17px] text-[rgb(188,187,197)] mt-1'>Traders</p>
+                                    <p className=' text-[12px] text-[rgb(188,187,197)] mt-1 lg:text-[17px]'>Traders</p>
                                 </div>
                             </div>
 
@@ -146,7 +146,7 @@ const FundWWallet = () => {
                                 <div className='w-1 h-[70%] bg-[rgb(223,28,96)] rounded-[2px] rotate-120 mt-1'></div>
                                 <div className='ml-2'>
                                     <h1 className='text-white text-2xl'>5hrs</h1>
-                                    <p className=' text-[17px] text-[rgb(188,187,197)] mt-1'>Avg. Reward <br /> Time</p>
+                                    <p className=' text-[12px] text-[rgb(188,187,197)] mt-1 lg:text-[17px]'>Avg. Reward <br /> Time</p>
                                 </div>
                             </div>
                         </div>

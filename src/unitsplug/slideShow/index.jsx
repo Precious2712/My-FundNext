@@ -3,7 +3,7 @@ import lite from '/stellar-lite-plan.svg'
 import eva from '/evaluation-plan.svg'
 import expres from '/express-plan.svg'
 import { useState } from 'react';
-import { Button } from '@/components/ui/button';
+
 const Booking = () => {
     const [first, setFirst] = useState(true);
 
@@ -15,25 +15,25 @@ const Booking = () => {
         <div className=" bg-[rgb(67,25,151)] mt-16 pt-20 pb-[100px] lg:mt-[160px]">
             <h1 className='font-bold text-white text-center text-3xl lg:text-[50px]'>Choose the Best Plan</h1>
 
-            <div className='rounded-full w-[91%] px-3 m-auto bg-[rgb(23,10,60)] py-3 mt-10 lg:w-[51%] flex gap-5 justify-center'>
-                <div className='flex gap-2 justify-center bg-white rounded-full py-2 w-[100px]  md:w-[73px] lg:w-[22%]'>
-                    <img className='hidden lg:block w-[]' src={news} alt="" />
-                    <p className='text-black text-[17px] lg:mt-1'>Stellar</p>
+            <div className='rounded-full w-[95%] px-4 m-auto bg-[rgb(23,10,60)] py-3 mt-10 lg:w-[51%] flex gap-5 justify-center'>
+                <div className='flex gap-2 justify-center items-center bg-white rounded-full py-2 w-[100px]  md:w-[73px] lg:w-[22%]'>
+                    <img className='hidden lg:block' src={news} alt="" />
+                    <p className='text-black text-[11px] lg:mt-1 lg:text-[17px]'>Stellar</p>
                 </div>
 
                 <div className='flex gap-2 justify-center hover:bg-[rgb(29,20,66)] rounded-full py-2 w-[100px]  md:w-[93px] lg:w-[22%]'>
-                    <img className='hidden lg:block w-[]' src={lite} alt="" />
-                    <p className='text-white text-[17px] lg:mt-1'>StellarLite</p>
+                    <img className='hidden lg:block' src={lite} alt="" />
+                    <p className='text-white text-[11px] lg:mt-1 lg:text-[17px]'>StellarLite</p>
                 </div>
 
                 <div className='flex gap-2 justify-center hover:bg-[rgb(29,20,66)] rounded-full py-2 w-[90px]  md:w-[93px] lg:w-[22%]'>
-                    <img className='hidden lg:block w-[]' src={eva} alt="" />
-                    <p className='text-white text-[17px] lg:mt-1'>Evaluation</p>
+                    <img className='hidden lg:block' src={eva} alt="" />
+                    <p className='text-white text-[11px] lg:mt-1 lg:text-[17px]'>Evaluation</p>
                 </div>
 
                 <div className='flex gap-2 justify-center hover:bg-[rgb(29,20,66)] rounded-full py-2 w-[90px]  md:w-[93px] lg:w-[22%]'>
-                    <img className='hidden lg:block w-[]' src={expres} alt="" />
-                    <p className='text-white text-[17px] lg:mt-1'>Express</p>
+                    <img className='hidden lg:block' src={expres} alt="" />
+                    <p className='text-white text-[11px] lg:mt-1 lg:text-[17px]'>Express</p>
                 </div>
             </div>
 
@@ -222,13 +222,13 @@ const Booking = () => {
             </div>
 
             <div className='w-[80%] bg-[rgb(17,15,62)] mt-2 rounded-[16px] pt-4 min-h-[50vh] m-auto block lg:hidden'>
-                <h1 className='text-center text-white text-3xl font-bold'>Account Size</h1>
-                <h1 className='text-center text-white text-3xl font-bold mt-4'>$6000</h1>
+                <h1 className='text-center text-white text-2xl font-bold'>Account Size</h1>
+                <h1 className='text-center text-white text-1xl font-bold mt-4'>$6000</h1>
                 <div className='flex justify-center'>
-                    <button className="bg-blue-500 text-white px-4 py-2 mt-4 rounded w-[79%] font-bold ">Get Plan <br /> $59</button>
+                    <button className="bg-blue-500 text-white text-sm px-4 py-2 mt-4 rounded w-[79%] font-bold ">Get Plan <br /> $59</button>
                 </div>
 
-                <table className='border-collaspe w-full text-white'>
+                <table className='border-collaspe w-full text-white text-xs'>
                     <tbody>
                         <tr>
                             <td className='bg-[rgb(4,8,41)] w-[70%] p-4'>15% Profit Share From Challenge <br /> Phase</td>

@@ -1,11 +1,10 @@
 import React from 'react'
 import logo from '@/assets/fundednext-white-logo.svg'
-import ftmo from '@/assets/play-icon (1).svg'
 import { tablerow } from '@/array/table'
 import { rows } from '@/array/row'
 const HideContent = () => {
     return (
-        <div className="w-full  flex overflow-x-hidden mt-12 items-stretch">
+        <div className="w-full pb-4 flex overflow-x-hidden mt-12 items-stretch">
 
             <div className="  flex flex-col rounded-[69px] ">
                 {
@@ -17,7 +16,7 @@ const HideContent = () => {
                                         <td className=" p-[4.5px] w-[260px] ">
                                             {
                                                 (el.txt || el.text).map((item, index) => (
-                                                    <div key={index}>
+                                                    <div key={index} className='text-[11px]'>
                                                         {item}
                                                     </div>
                                                 ))
@@ -53,8 +52,7 @@ const HideContent = () => {
                                             <table className='border-collapse w-full'>
                                                 <tbody>
                                                     <tr>
-                                                        <td className=' p-[8.3px] text-white'>
-                                                            {/* Check if tx.text is an array or string */}
+                                                        <td className=' p-[8.3px] text-white text-[11px]'>
                                                             {
                                                                 Array.isArray(tx.text)
                                                                     ? tx.text.map((e, k) => (
@@ -62,12 +60,10 @@ const HideContent = () => {
                                                                     ))
                                                                     : tx.text
                                                             }
-
-                                                            {/* Check if tx.txt is an array or string */}
                                                             {
                                                                 Array.isArray(tx.txt)
                                                                     ? tx.txt.map((e, k) => (
-                                                                        <div className='' key={k}>{e}</div>
+                                                                        <div className='text-[9px]' key={k}>{e}</div>
                                                                     ))
                                                                     : tx.txt
                                                             }
@@ -82,10 +78,6 @@ const HideContent = () => {
                         ))
                     }
                 </div>
-
-
-
-
             </div>
 
         </div>
